@@ -3,6 +3,8 @@
     --cor-principal: black;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: red;
+    --cor-background-rodape: #333;
+    --cor-rodape: white;
     --cor-hover: #272727;
 
     --fonte-principal: "Krona One", sans-serif;
@@ -109,8 +111,8 @@ body{
 }
 
 .rodape {
-    color: var(--cor-principal);
-    background-color: var(--cor-terciaria);
+    color: var(--cor-rodape);
+    background-color: var(--cor-background-rodape);
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
